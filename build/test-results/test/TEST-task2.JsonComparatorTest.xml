@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="task2.JsonComparatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-10T17:32:15" hostname="LAPTOP-V6TDORT5" time="0.038">
+  <properties/>
+  <testcase name="verifyCorrectComparisons()" classname="task2.JsonComparatorTest" time="0.026"/>
+  <testcase name="verifyIncorrectComparisons()" classname="task2.JsonComparatorTest" time="0.008"/>
+  <testcase name="verifyIgnoredComparisons()" classname="task2.JsonComparatorTest" time="0.002"/>
+  <system-out><![CDATA[Running verifyCorrectComparisons
+Running verifyIncorrectComparisons
+Checked ---> EXPECTED: true ACTUAL: false
+Content ---> EXPECTED: Andersaurio's Item ACTUAL: Ander's Item
+Running verifyIgnoredComparisons
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

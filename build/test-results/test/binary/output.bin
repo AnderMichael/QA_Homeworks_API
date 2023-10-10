@@ -1,228 +1,5 @@
-Request method:	POST
--Request URI:	https://todo.ly/api/items.json
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-LHeaders:		Authorization=Basic YW5kZXJzYXVyaW9AYW5kZXIuY29tOlN0YW5kYnltZTE=
-				Accept=*/*
-1				Content-Type=text/plain; charset=ISO-8859-1
-Cookies:		<none>
-Multiparts:		<none>
-Body:
- {"Content":"Ander's New Item"}
-HTTP/1.1 200 OK
-4Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-/Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=4tcz3fmy0myzfldhtlk0qrsf; path=/; HttpOnly; SameSite=Lax
-X-AspNetMvc-Version: 2.0
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-%Date: Tue, 10 Oct 2023 16:42:08 GMT
-Content-Length: 542
-
-{
-    "Id": 11194280,
-#    "Content": "Ander's New Item",
-    "ItemType": 1,
-    "Checked": false,
-    "ProjectId": null,
-    "ParentId": null,
-    "Path": "",
-    "Collapsed": false,
-    "DateString": null,
-    "DateStringPriority": 0,
-    "DueDate": "",
-    "Recurrence": null,
-    "ItemOrder": null,
-    "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1696956129731)/",
-    "Children": [
-	        
-    ],
-    "DueDateTime": null,
-,    "CreatedDate": "/Date(1696956129700)/",
-    "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1696956129700)/",
-    "Deleted": false,
-    "Notes": "",
-    "InHistory": false,
-"    "SyncClientCreationId": null,
-    "DueTimeSpecified": true,
-    "OwnerId": 730631
-}
-Request method:	GET
-6Request URI:	https://todo.ly/api/items/11194280.json
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-LHeaders:		Authorization=Basic YW5kZXJzYXVyaW9AYW5kZXIuY29tOlN0YW5kYnltZTE=
-				Accept=*/*
-1				Content-Type=text/plain; charset=ISO-8859-1
-Cookies:		<none>
-Multiparts:		<none>
-Body:
- {"Content":"Ander's New Item"}
-HTTP/1.1 200 OK
-4Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-/Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=hfwvsitmalmkbttd0q5jaaql; path=/; HttpOnly; SameSite=Lax
-X-AspNetMvc-Version: 2.0
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-%Date: Tue, 10 Oct 2023 16:42:12 GMT
-Content-Length: 542
-
-{
-    "Id": 11194280,
-#    "Content": "Ander's New Item",
-    "ItemType": 1,
-    "Checked": false,
-    "ProjectId": null,
-    "ParentId": null,
-    "Path": "",
-    "Collapsed": false,
-    "DateString": null,
-    "DateStringPriority": 0,
-    "DueDate": "",
-    "Recurrence": null,
-    "ItemOrder": null,
-    "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1696956132539)/",
-    "Children": [
-	        
-    ],
-    "DueDateTime": null,
-,    "CreatedDate": "/Date(1696956129700)/",
-    "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1696956129700)/",
-    "Deleted": false,
-    "Notes": "",
-    "InHistory": false,
-"    "SyncClientCreationId": null,
-    "DueTimeSpecified": true,
-    "OwnerId": 730631
-}
-Request method:	PUT
-6Request URI:	https://todo.ly/api/items/11194280.json
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-LHeaders:		Authorization=Basic YW5kZXJzYXVyaW9AYW5kZXIuY29tOlN0YW5kYnltZTE=
-				Accept=*/*
-1				Content-Type=text/plain; charset=ISO-8859-1
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-&{"Content":"Andersaurio's New Item"}
-HTTP/1.1 200 OK
-4Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-/Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=ruimt5z4nnspco2k5afl5vcl; path=/; HttpOnly; SameSite=Lax
-X-AspNetMvc-Version: 2.0
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-%Date: Tue, 10 Oct 2023 16:42:13 GMT
-Content-Length: 548
-
-{
-    "Id": 11194280,
-)    "Content": "Andersaurio's New Item",
-    "ItemType": 1,
-    "Checked": false,
-    "ProjectId": null,
-    "ParentId": null,
-    "Path": "",
-    "Collapsed": false,
-    "DateString": null,
-    "DateStringPriority": 0,
-    "DueDate": "",
-    "Recurrence": null,
-    "ItemOrder": null,
-    "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1696956133756)/",
-    "Children": [
-	        
-    ],
-    "DueDateTime": null,
-,    "CreatedDate": "/Date(1696956129700)/",
-    "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1696956133757)/",
-    "Deleted": false,
-    "Notes": "",
-    "InHistory": false,
-"    "SyncClientCreationId": null,
-    "DueTimeSpecified": true,
-    "OwnerId": 730631
-}
-Request method:	DELETE
-6Request URI:	https://todo.ly/api/items/11194280.json
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-LHeaders:		Authorization=Basic YW5kZXJzYXVyaW9AYW5kZXIuY29tOlN0YW5kYnltZTE=
-				Accept=*/*
-1				Content-Type=text/plain; charset=ISO-8859-1
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-&{"Content":"Andersaurio's New Item"}
-HTTP/1.1 200 OK
-4Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-/Content-Type: application/json; charset=utf-8
-Expires: -1
-Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=2uljkjcj2yx0ymyax2vrj0vp; path=/; HttpOnly; SameSite=Lax
-X-AspNetMvc-Version: 2.0
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-%Date: Tue, 10 Oct 2023 16:42:14 GMT
-Content-Length: 547
-
-{
-    "Id": 11194280,
-)    "Content": "Andersaurio's New Item",
-    "ItemType": 1,
-    "Checked": false,
-    "ProjectId": null,
-    "ParentId": null,
-    "Path": "",
-    "Collapsed": false,
-    "DateString": null,
-    "DateStringPriority": 0,
-    "DueDate": "",
-    "Recurrence": null,
-    "ItemOrder": null,
-    "Priority": 4,
-3    "LastSyncedDateTime": "/Date(1696956134926)/",
-    "Children": [
-	        
-    ],
-    "DueDateTime": null,
-,    "CreatedDate": "/Date(1696956129700)/",
-    "LastCheckedDate": null,
-0    "LastUpdatedDate": "/Date(1696956134897)/",
-    "Deleted": true,
-    "Notes": "",
-    "InHistory": false,
-"    "SyncClientCreationId": null,
-    "DueTimeSpecified": true,
-    "OwnerId": 730631
-}
+"Running verifyCorrectComparisons
+$Running verifyIncorrectComparisons
++Checked ---> EXPECTED: true ACTUAL: false
+@Content ---> EXPECTED: Andersaurio's Item ACTUAL: Ander's Item
+"Running verifyIgnoredComparisons
